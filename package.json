@@ -6,8 +6,8 @@
     "@gooddata/react-components": "6.2.0",
     "http-proxy-middleware": "0.19.1",
     "node-sass": "4.11.0",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
