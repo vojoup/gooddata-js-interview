@@ -5,13 +5,10 @@ Frontend Interview Examples
 
 ### Introduction
 
-Your task is to enhance the application using the [GoodData.UI](https://sdk.gooddata.com/gooddata-ui/).
+This is a solution for [the GoodData js interview task](https://github.com/gooddata/gooddata-js-interview).
 
 ### Prerequisites
 
-To successfully complete this tutorial, you are required to:
-
-* Be familiar with the modern JavaScript ecosystem.
 * Have `node.js` and `yarn` installed in your development environment.
   * If you do not have these tools installed, you can get them from https://nodejs.org/ and https://yarnpkg.com/ respectively.
 
@@ -27,14 +24,6 @@ To successfully complete this tutorial, you are required to:
 
 ![Screenshot after initialization](https://github.com/gooddata/gooddata-js-interview/blob/master/public/screen.png "Initialization Screenshot")
 
-### Task
-
-__Make the dropdown work. That is, the dropdown `onChange` should reload the upper chart appropriately.__
-
-When you are done, send us the link to your source code repo and the instructions how to run the demo.
-
-We are looking for re-usable code. You are strongly encouraged to "over-engineer" this to show off your software architecture and designing skills. Assume that this abstract application will be the first component of a large scale application.
-
 ### GoodData.UI Documentation
 
 [GoodData.UI Documentation](https://sdk.gooddata.com/gooddata-ui/docs/about_gooddataui.html)
@@ -49,9 +38,6 @@ We are looking for re-usable code. You are strongly encouraged to "over-engineer
 
 ###### Charts do not get loaded.
 * Most likely, you are not logged in correctly. Check the Network tab in Google Chrome DevTools. If you see `HTTP 401 ERROR`, visit https://localhost:3000/account.html and log in properly.
-
-###### Anything else?
-* Contact your recruiter for further information.
 
 ---
 
